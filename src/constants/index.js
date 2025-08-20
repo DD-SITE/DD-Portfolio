@@ -22,11 +22,105 @@ export const navLinks = [
 ];
 
 export const myProjects = [
- {
+  {
+    title: 'DDPROMPT — AI-Powered Prompt-Based Website Code Generator',
+    desc: 'ddprompt is a full-stack web application that generates complete website code based on user prompts using Google Gemini API.',
+    subdesc:
+      'Created a prompt-to-code web app that generates website code using the Google Gemini API, featuring dual preview with Sandpack, support for .txt file uploads, a prompt history sidebar, and regeneration for modified prompts, secured with Google/GitHub authentication via NextAuth.',
+    href: 'https://ddprompt.vercel.app/',
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'JavaScript',
+        path: '/assets/javascript.png',
+      },
+      {
+        id: 4,
+        name: 'Next.js',
+        path: '/assets/nextjs.png',
+      },
+      {
+        id: 5,
+        name: 'Next Auth',
+        path: '/assets/nextauth.png',
+      },
+      {
+        id: 6,
+        name: 'Google Gemini AI',
+        path: '/assets/gemini.png',
+      },
+    ],
+  },
+  {
+    title: 'DDFRAME – Wireframes to Code Generation with AI',
+    desc: 'Convert wireframes into clean, responsive React + Tailwind CSS components effortlessly.Powered by TypeScript, Firebase, OpenRouter AI, Cloudinary, Neon DB, and Sandpack',
+    subdesc:
+      'Built a platform with Google Auth (Firebase), Cloudinary uploads, and AI-powered code generation (React + Tailwind via OpenRouter). Added prompt customization, history tracking (Postgres), dual preview with Sandpack, and analytics dashboards using Firebase.',
+    href: 'https://dd-frame.vercel.app/',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/project-logo2.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Firebase',
+        path: '/assets/firebase.png',
+      },
+      {
+        id: 5,
+        name: 'Next.js',
+        path: '/assets/nextjs.png',
+      },
+      {
+        id: 6,
+        name: 'PostgresSQL',
+        path: '/assets/postgres.jpeg',
+      },
+    ],
+  },
+  {
     title: 'DDLabs - Health Management System',
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
-      'With a focus on efficiency, DDLabs integrates complex forms and SMS notifications, by using Next.js, Appwrite and Twillio that enhance operational workflows.',
+      'With a focus on efficiency, DDLabs integrates complex forms and SMS notifications, by using Next.js, Appwrite and Twillio that enhance operational workflows. The application works seamlessly on all device types and screen sizes.',
     href: 'https://dd-lab.vercel.app/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/logo-full.svg',
@@ -77,11 +171,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'CSPTCL',
-    pos: 'Vocational Training',
-    duration: 'May 2024 - June 2024',
+    name: 'CHHATTISGARH STATE POWER TRANSMISSION CO. LTD.',
+    pos: 'Vocational Trainee',
+    duration: 'May 2025 - June 2025',
     title: "Gained knowledge of Power Line Carrier Communication (PLCC) used for data and voice transmission over high-voltage power lines.Understood relay protection mechanisms and their role in power transmission systems.Worked with PLCC equipment such as coupling capacitors, line traps, and hybrid circuits.",
     icon: '/assets/csptcl.svg',
     animation: 'victory',
+  },
+  {
+    id: 2,
+    name: 'CHHATTISGARH STATE POWER TRANSMISSION CO. LTD.',
+    pos: 'Vocational Trainee',
+    duration: 'May 2024 - June 2024',
+    title: "Analyzed real-time communication in power transmission systems using PLCC, focusing on analog/digital signal transmission,protocol design, and fault-tolerant system behavior.Drew parallels with distributed software systems, applying concepts of low-latency communication, synchronization, and reliability.",
+    icon: '/assets/csptcl.svg',
+    animation: 'clapping',
+  },
+  {
+    id: 3,
+    name: 'College Literature Committee and Finance and Consulting Club',
+    pos: 'Head-Coordinator',
+    duration: '2023 - Present',
+    title: "Worked in the Public Relations domain to promote literary events, engaging participants through debates, extempore, and spell-bee competitions. Served as the Chief Editor of the college magazine. Created content and managed Instagram posts related to finance topics, news and club events. Organized speaker sessions, case-based quizzes and guesstimate competitions.",
+    icon: '/assets/nitrr.png',
+    animation: 'salute',
   },
 ];
