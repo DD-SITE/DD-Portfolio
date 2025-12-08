@@ -5,9 +5,7 @@ import gsap from 'gsap';
 
 const Target = (props) => {
   const targetRef = useRef();
-  const { scene } = useGLTF(
-    'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',
-  );
+  const { scene } = useGLTF('/models/RobotExpressive.glb'); // ⬅️ LOCAL FILE NOW
 
   useGSAP(() => {
     gsap.to(targetRef.current.position, {
@@ -15,14 +13,17 @@ const Target = (props) => {
       duration: 1.5,
       repeat: -1,
       yoyo: true,
+      ease: 'sine.inOut',
     });
   });
 
   return (
-    <mesh {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={1.5}>
+    <mesh {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={1.2}>
       <primitive object={scene} />
     </mesh>
   );
 };
+
+useGLTF.preload('/models/RobotExpressive.glb');
 
 export default Target;
