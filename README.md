@@ -16,7 +16,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - **3D Animations:** Immersive 3D elements and backgrounds using Three.js and @react-three/fiber.
 - **Responsive Design:** Fully mobile-friendly, works seamlessly across devices.
@@ -29,7 +29,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** [React.js](https://react.dev/)
 - **Styling:** [TailwindCSS](https://tailwindcss.com/), [General Sans](https://fonts.cdnfonts.com/fonts/general-sans)
@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repo
 
@@ -78,7 +78,7 @@ yarn build
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DD-Portfolio/
@@ -99,7 +99,7 @@ DD-Portfolio/
 
 ---
 
-## 🌟 Credits
+##  Credits
 
 - [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
 - [Three.js](https://threejs.org/)
@@ -112,7 +112,7 @@ DD-Portfolio/
 
 ---
 
-## 👤 Author
+##  Author
 
 **Divyam Dixit**
 
